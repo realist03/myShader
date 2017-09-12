@@ -54,7 +54,8 @@ Shader "Shader Forge/Post" {
                 float4 node_1672 = tex2D(_MainTex,TRANSFORM_TEX(node_8397, _MainTex));
                 float3 emissive = node_1672.rgb;
                 float3 finalColor = emissive;
-                return fixed4(finalColor,1);
+                return fixed4(finalColor,1);
+//
             }
             ENDCG
         }
